@@ -22,6 +22,8 @@ Extracted_Images*/
 
 # Keep sample workbook and project assets
 !Jewelry_Catalog_Sample.xlsx
+!assets/
+!assets/**
 
 # Environments
 .venv/

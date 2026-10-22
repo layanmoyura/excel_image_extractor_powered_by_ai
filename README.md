@@ -17,6 +17,26 @@ You can download the pre-built, ready-to-use Windows application from GitHub Rel
 
 ---
 
+## 📸 User Interface & Screenshots
+
+### 1. Modern Dashboard & Workbook Selection
+Clean, modern dark-themed interface with drag-and-drop or one-click browsing for Excel files, as well as a preloaded sample catalog:
+![Startup Screen](assets/screenshots/01_app_startup.png)
+
+---
+
+### 2. AI Auto-Detection & Live Image Preview
+Built-in heuristic AI scans rows and statistical data patterns to auto-detect Design Number and Image columns with confidence indicators, paired with a real-time thumbnail table:
+![Preview & Column Mapping](assets/screenshots/02_preview_and_mapping.png)
+
+---
+
+### 3. Instant Multithreaded Extraction
+Extracts, composites transparency onto pure white backgrounds, numbers duplicates, and notifies you upon completion with direct 1-click access to the export folder:
+![Extraction Complete](assets/screenshots/03_extraction_complete.png)
+
+---
+
 ## 🌟 Key Features
 
 1. **Any Column Placement**:
@@ -111,6 +131,8 @@ Click the **⚙ Settings & AI** button in the header to configure:
 
 ```
 excel_image_extractor_powered_by_ai/
+├── assets/
+│   └── screenshots/          # Application screenshots for documentation
 ├── core/
 │   ├── excel_engine.py       # Dual extraction engine (openpyxl + direct ZIP/XML fallback)
 │   ├── column_detector.py    # Statistical heuristic scorer & column auto-detector
