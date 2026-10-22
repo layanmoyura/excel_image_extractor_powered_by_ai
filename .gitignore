@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller & Build artifacts
+build/
+dist/
+*.spec
+*.exe
+*.zip
+
+# Configuration with local API keys
+config.json
+
+# Extracted output folders
+Extracted_Images*/
+*_export_output/
+*.jpg
+*.jpeg
+*.png
+
+# Keep sample workbook and project assets
+!Jewelry_Catalog_Sample.xlsx
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE & Editor folders
+.vscode/
+.idea/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
